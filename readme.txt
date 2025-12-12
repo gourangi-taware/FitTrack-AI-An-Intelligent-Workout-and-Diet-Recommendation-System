@@ -1,3 +1,20 @@
-AI Based Workout Assistant and Fitness Guide
+FitTrack AI — Project Summary
 
-We introduce Fitcercise, an application that detects the user’s exercise pose counts the specified exercise repetitions and provides personalized, detailed recommendations on how the user can improve their form. The application uses the MediaPipe to detect a person’s pose, and afterwards analyses the geometry of the pose from the dataset and real-time video and counts the repetitions of the particular exercise.
+FitTrack AI is an AI-powered workout and diet recommendation system.
+It provides real-time exercise posture monitoring using MediaPipe Pose, counts repetitions, gives audio feedback for incorrect posture, and recommends meals based on the user’s calorie needs. The system includes exercise tutorials, a virtual trainer, and a simple diet recommendation engine using curated food datasets.
+
+How to Start the Project
+
+Install dependencies:
+
+npm install
+
+Start the server:
+
+npm start
+
+Open in browser:
+
+http://localhost:5000
+
+That's it — the application will load the home page where you can access exercise tracking, diet recommendations, and profile features.
